@@ -1,0 +1,74 @@
+body{
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    z-index: inherit;
+    background-color: aqua;
+    text-align: center;
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter:brightness(0.5);
+    
+
+}
+
+h1{
+    text-transform:capitalize;
+}
+h3{
+    text-transform: lowercase;
+    font-size:10px; 
+}
+button{
+    width: 120px;
+    height: 40px;
+
+}
+
+#contener0{
+    display:flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 20PX;
+    padding: 20px;
+    width: 100%;
+}
+#card{
+    height: 150px;
+    background-color: aqua;
+    width: 152px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#Services{
+    height: 10px;
+    padding: 130px;
+    background-color: aqua;
+    filter: brightness(0.5);
+    justify-content: center;
+
+}
+h2{
+    text-transform: capitalize;
+
+}
+#info{
+    padding: 20px;
+    width: 270px;
+}
+
+#contener{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50%;    
+
+}
+input[type="submit"]{
+    width: 200px;
+
+
+}
